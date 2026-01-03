@@ -28,3 +28,13 @@ Overview created with [Gnome: Dia](https://wiki.gnome.org/action/show/Apps/Dia?a
   - My idea right now:
     - Switch to a VT on Raspberry Pi that only shows a full screen image and refreshes that image whenever a new one is received over the network.
     - Run a service on Raspberry Pi that publishes that display as a virtual display that can be used from UT
+
+# Roadmap
+
+Not much programming has been done so far, but there is now more understanding about related projects and how they could be used to finally build the dock. The final solution should work with all Linux powered devices, not just with Ubuntu Touch and Raspberry Pi. So here are some of the next steps:
+
+  - [ ] Implement Miracast over Infrastructure in [Aethercast](https://gitlab.com/ubports/development/core/aethercast/-/issues/10)
+  - [ ] Implement Miracast over Infrastructure in [MiracleCast](https://github.com/albfan/miraclecast/issues/400)
+  - [ ] Reuse parts of MiracleCast to build the display sink on the dock.
+
+Please note that each of those steps brings benefits by itself and there are no dependecies between these tasks.
